@@ -1,0 +1,37 @@
+@media(max-width: 1023px){
+    .wrapper{
+        >div{
+            padding: 20px 0;
+        }
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .nav-link-menu{
+        text-align: right;
+        margin-top: 45px;
+        display: block;
+        color: white;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .box + .box{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+
+    .box-image img{
+        width: 45%;
+        margin: 10px;
+    }
+
+    .box-image + .box-image{
+        margin-left: 0;
+    }
+}

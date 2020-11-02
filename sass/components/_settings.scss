@@ -1,0 +1,19 @@
+@import '_colors.scss';
+
+h3{
+    font-size: 12px;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}
+
+h2,h3{
+    color: $tamales;
+    padding-bottom: 12px;
+    background-image: url(../img/_assets/arrow.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: $nacho;
+}

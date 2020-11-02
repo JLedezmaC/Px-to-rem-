@@ -1,0 +1,140 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 17px solid #090909;
+    margin: 0;
+}
+
+#slider img {
+    max-width: 100%;
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 960px;
+    /*border: 1px solid black;*/
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#e-mail{
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #999898;
+	text-decoration: none;
+}
+
+#lista{
+    list-style: none;
+    margin: 45px 0 0 0;
+	padding: 0;
+}
+
+#lista a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#fe9b00;
+    font-weight: bold;
+}
+
+#lista li{
+    float: left;
+}
+
+#lista li+li{
+    margin-left: 60px;
+}
+
+.box{
+    float: left;
+    width: 29%;
+}
+
+.box + .box{
+    margin-left: 6%;
+}
+
+.read{
+    color:#fe9b00;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    padding-left:23px; 
+}
+
+.arrow1{
+    width: 9px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.read:hover{
+    text-decoration: underline;
+}
+
+.box-link{
+	color: #090909;
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#check{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#check li{
+    background-image: url(../img/_assets/check.png);
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.box-image img{
+    width: 22%;
+    float: left;
+    max-width: 100%;
+    margin-left: 2%;
+}
+
+.box-image a , .box-image img {
+    display: block;
+}
+
+.box-image + .box-image{
+    margin-left: 4%;
+}
+
+#blog-updates{
+    width: 69%;
+    float: left;
+    margin-right: 8%;
+}
+
+.blog img{
+    width: 100%;
+    max-width: 100%;
+}
+#connect{
+    width: 23%;
+    float: right;
+}
+
+.facebook{
+    width: 25px;
+    height: 30px;
+}
+
+.nav-link-menu{
+    display: none;
+}

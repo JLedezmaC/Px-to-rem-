@@ -1,0 +1,21 @@
+@media(max-width:767px){
+    .box-image img{
+        width: 100%;
+    }
+
+    .box-image + .box-image{
+        margin-top: 10px;
+    }
+
+    .blog-updates{
+        width: 100%;
+    }
+
+    #connect{
+        width: 100%;
+    }
+
+    .footer-logo{
+        position: static;
+    }
+}
